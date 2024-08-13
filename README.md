@@ -21,3 +21,15 @@
   Documentação: Adicionados docstrings
 
   Bloco if __name__ == "__main__":: Adicionei este bloco para permitir que o script seja executado diretamente ou importado como um módulo sem executar o código imediatamente.
+
+### Alterações adicionadas no arquivo schema.sql
+  Todo o código foi reescrito seguindo as boas praticas de legibilidade e organização.
+
+  Comentários: Adicionei comentários para separar seções e descrever o propósito de cada bloco de SQL.
+
+  Consistência no Estilo: Uniformizei a formatação, como o uso consistente de maiúsculas para palavras-chave SQL (CREATE TABLE, FOREIGN KEY, etc.).
+
+  Quebra de Linha para VALUES: Formatei a cláusula INSERT INTO para que a lista de colunas e os valores estejam em linhas separadas, melhorando a legibilidade.
+
+  Ordem de Criação das Tabelas: Garantindo que as tabelas são criadas na ordem correta e se que as tabelas referenciadas (tb_categoria e tb_setor) existam antes de criar tb_produto.
+
