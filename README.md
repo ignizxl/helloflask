@@ -33,3 +33,5 @@
 
   Ordem de Criação das Tabelas: Garantindo que as tabelas são criadas na ordem correta e se que as tabelas referenciadas (tb_categoria e tb_setor) existam antes de criar tb_produto.
 
+### Alterações feitas nas classes Produto e Usuario
+  Essas classes não tiveram nenhuma mudança significativa!
